@@ -16,7 +16,7 @@ import { execSync } from "node:child_process";
 import { PublisherGithub } from "@electron-forge/publisher-github";
 
 const STRINGS = {
-  author: "Learnet Platforms LTD",
+  author: "Learnet",
   name: "Learnet",
   execName: "learnet-desktop",
   description: "Open source user-first flashcards app.",
@@ -57,7 +57,7 @@ const makers: ForgeConfig["makers"] = [
     description: STRINGS.description,
     exe: `${STRINGS.execName}.exe`,
     setupExe: `${STRINGS.execName}-setup.exe`,
-    copyright: "Copyright (C) 2026 Learnet Platforms LTD",
+    copyright: "Copyright (C) 2026 Learnet",
   }),
 new MakerDMG({
   background: `${ASSET_DIR}/dmg-background.png`,
